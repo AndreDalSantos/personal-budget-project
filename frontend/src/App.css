@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(15, 15, 15);
+    font: 18px sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+
+}
+
+header {
+    margin-top: 30px;
+    margin: 30px 60px 0 60px;
+    padding: 20px 0 20px 0;
+    border-radius: 16px;
+    background-color: rgb(58, 101, 109);
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+header > h1 {
+    font-size: 26px;
+    line-height: 36px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.titles {
+    margin: 50px 60px 20px 60px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-weight: 700;
+    align-items: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+.titles div:nth-child(2),
+.ul-items li div:nth-child(2),
+.total-value div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+
+.ul-items {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.ul-items li {
+    border-bottom: solid 0.7px rgb(118, 124, 133);
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 7.5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.ul-items li div {
+    display: flex;
+    align-items: center;
+    line-height: 24px;
+    padding-bottom: 4px;
+}
+
+.ul-items li div:nth-child(1) {
+    text-transform: capitalize;
+}
+
+.ul-items li div:nth-child(3){
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-value {
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 20px 60px 20px 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-bottom: solid 0.7px rgb(118, 124, 133);
+    line-height: 24px;
+    padding-bottom: 4px;
+}
+
+form {
+    margin: 0 60px 0 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 30px;
+}
+
+form input {
+    width: 90%;
+}
+
+form div:nth-child(2),
+form div:nth-child(3){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form div:nth-child(3) {
+    justify-content: flex-end;
+}
+
+.button,
+.button-delete,
+input {
+    border-radius: 6px;
+    height: 100%;
+    font-weight: 700;
+    color: white;
+    width: 55%;
+}
+
+input {
+    font-weight: normal;
+    padding-left: 5px;
+    color: black;
+}
+
+.button {
+    background-color: rgb(81, 81, 255);
+}
+
+.button-delete {
+    background-color: rgb(235, 67, 67);
+}
+
+
+
